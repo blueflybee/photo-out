@@ -8,7 +8,7 @@
         android:supportsRtl="true">
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name=".provider.PhotoFileProvider"
             android:authorities="com.hss01248.photoouter.fileprovider"
             android:grantUriPermissions="true"
             android:exported="false">
