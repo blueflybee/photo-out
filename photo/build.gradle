@@ -28,7 +28,7 @@ dependencies {
     })
     //compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
-    compile 'com.github.hss01248.PhotoPicker:picker:1.0.8'
+    compile 'com.github.blueflybee.photo-picker:picker:v0.0.1'
 
     compile ('com.github.yalantis:ucrop:2.2.1'){
         exclude group: 'com.android.support'

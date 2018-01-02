@@ -30,7 +30,7 @@ dependencies {
     //compile 'com.github.tianzhijiexian:logger:1.1.9'//日志
     compile 'com.elvishew:xlog:1.3.0'
     compile project(':photo')
-    compile'com.github.hss01248.PhotoPicker:glide:1.0.7'
+    compile 'com.github.blueflybee.photo-picker:glide:v0.0.1'
 //    compile'com.github.hss01248.PhotoPicker:fresco:1.0.7'
 //    compile'com.github.hss01248.PhotoPicker:picasso:1.0.7'
 
