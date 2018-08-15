@@ -69,7 +69,8 @@ public class MyTool {
       Uri   uri ;
 
         if(isCameraOrCrop && Build.VERSION.SDK_INT >= 24){
-            uri = FileProvider.getUriForFile(PhotoUtil.context, "com.hss01248.photoouter.fileprovider", new File(cacheFolder,name));
+            String authority = context.getPackageName() + ".fileprovider";
+            uri = FileProvider.getUriForFile(PhotoUtil.context, authority, new File(cacheFolder,name));
         }else {
             uri = Uri
                     .fromFile(cacheFolder)

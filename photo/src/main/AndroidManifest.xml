@@ -9,7 +9,7 @@
 
         <provider
             android:name=".provider.PhotoFileProvider"
-            android:authorities="com.hss01248.photoouter.fileprovider"
+            android:authorities="${applicationId}.fileprovider"
             android:grantUriPermissions="true"
             android:exported="false">
             <meta-data
