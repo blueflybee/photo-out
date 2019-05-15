@@ -72,8 +72,16 @@ public class MainActivity extends Activity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.camera:
-                PhotoUtil.cropAvatar(true)
-                        .start(this, 23, callback);
+//                PhotoUtil.cropAvatar(true)
+//                        .start(this, 23, callback);
+                PhotoUtil.begin()
+                    .setFromCamera(true)
+                    .setNeedCropWhenOne(true)
+                    .setNeedCompress(true)
+                    .setMaxSelectCount(1)
+                    .setCropMuskOval()
+                    .setSelectGif()
+                    .start(this, 23, callback);
                 break;
             case R.id.pick1_crop:
                 PhotoUtil.begin()

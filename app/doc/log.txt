@@ -1,0 +1,7 @@
+08-15 13:51:46.628 14669-14669/com.hss01248.picoutdemo E/dd: new filePath:/storage/emulated/0/Pictures/photoout/camera/image-1534312306627.jpg
+08-15 13:51:46.629 14669-14669/com.hss01248.picoutdemo E/uri: content://com.hss01248.picoutdemo.fileprovider/camera_photos/storage/emulated/0/Pictures/photoout/camera/image-1534312306627.jpg
+
+08-15 13:51:56.042 14669-14669/com.hss01248.picoutdemo E/dd: new filePath:/storage/emulated/0/Pictures/photoout/compressed/image-1534312316042.jpg
+08-15 13:51:56.042 14669-14669/com.hss01248.picoutdemo E/uri: file:///storage/emulated/0/Pictures/photoout/compressed/image-1534312316042.jpg
+
+08-15 13:54:24.605 15831-15831/com.qtec.homestay       E/dd: new filePath:/storage/emulated/0/Pictures/photoout/camera/image-1534312464605.jpg
